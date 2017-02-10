@@ -14,6 +14,7 @@
 		C62A48411E42A3ED001D15A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62A483F1E42A3ED001D15A4 /* LaunchScreen.storyboard */; };
 		C62A484B1E42A8CB001D15A4 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62A484A1E42A8CB001D15A4 /* PhotosViewController.swift */; };
 		C62A484E1E42AC7B001D15A4 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62A484D1E42AC7B001D15A4 /* PhotoCell.swift */; };
+		C63B7EC71E4BDFD7003BAAAC /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63B7EC61E4BDFD7003BAAAC /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C62A48421E42A3ED001D15A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C62A484A1E42A8CB001D15A4 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		C62A484D1E42AC7B001D15A4 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		C63B7EC61E4BDFD7003BAAAC /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		E5F75B9035E76E5743512CFE /* Pods-myApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myApp/Pods-myApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E5FC8B9AD28D5F69D3663275 /* Pods_myApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				C62A484A1E42A8CB001D15A4 /* PhotosViewController.swift */,
+				C63B7EC61E4BDFD7003BAAAC /* PhotoDetailsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63B7EC71E4BDFD7003BAAAC /* PhotoDetailsViewController.swift in Sources */,
 				C62A48371E42A3ED001D15A4 /* AppDelegate.swift in Sources */,
 				C62A484E1E42AC7B001D15A4 /* PhotoCell.swift in Sources */,
 				C62A484B1E42A8CB001D15A4 /* PhotosViewController.swift in Sources */,
